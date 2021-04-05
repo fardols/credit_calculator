@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "jsx": "react",
+        "isolatedModules": true,
+        "noEmit": true,
+        "pretty": true,
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "downlevelIteration": true
+    }
+}

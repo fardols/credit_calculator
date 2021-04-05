@@ -1,0 +1,72 @@
+.flexParentElement {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-direction: column;
+}
+
+.flexElement {
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flexGrowElement {
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: calc(100% - 2000px);
+}
+
+.booksListWrapperElement {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.booksListHeaderPanel {
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.booksListTableWrapper {
+    padding: 10px;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: auto;
+}
+
+.booksListFooter {
+    border-top: 2px solid LightGray;
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.nameCell {
+    width: 160px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.commentCell {
+    width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.settingsCell {
+    width: 90px;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.mainTitle {
+    margin: 30px;
+    font-size: 21px
+}

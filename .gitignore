@@ -1,0 +1,10 @@
+
+# Default ignored files
+/.idea
+/.vscode
+/node_modules
+/Static_web_project.iml
+/output/build.js
+
+# Project exclude paths
+/output/
